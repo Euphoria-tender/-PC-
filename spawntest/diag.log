@@ -1,0 +1,19 @@
+backendPath=D:/PC应用项目/release/win-unpacked/resources/backend/backend.exe
+exists=true
+resourcesPath=D:\PC应用项目\node_modules\electron\dist\resources
+[stderr] [2026-09-04 21:00:12] | INFO     | app | ��־ϵͳ��ʼ����ɣ�����: INFO
+[stderr] [2026-09-04 21:00:12] | INFO     | app | ���ݿ���ѳ�ʼ��
+[stdout] ============================================================
+�Ļ�DNA �������������...
+���ݿ�: sqlite:///C:\Users\��˶\AppData\Local\Temp\_MEI000013302\cultural_dna.db
+AIģ��: C:\Users\��˶\AppData\Local\Temp\_MEI000013302\ai_model\checkpoints\best.pth
+������ַ: http://localhost:5500
+============================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[stderr] WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5500
+Press CTRL+C to quit
+[stderr] 127.0.0.1 - - [04/Sep/2026 21:00:14] "GET /api/auth/profile HTTP/1.1" 401 -
+[check] backend responds status=401
+DONE

@@ -1,42 +1,5 @@
-# ===== Dependencies =====
-node_modules/
-
-# ===== Build / dist output =====
-dist/
-release/
-backend_dist/
-
-# ===== Python =====
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.db
-
-# ===== Model checkpoints (large binaries, do NOT commit) =====
-backend/ai_model/checkpoints/
-*.pth
-*.pt
-*.ckpt
-
-# ===== Logs =====
-*.log
-
-# ===== Runtime data =====
-backend/logs/
-backend/uploads/
-backend/seed_images/
-
-# ===== OS / Editor =====
-.env
+# 仅忽略操作系统产生的垃圾文件。
+# 按需求"一个都不要漏掉"，其余所有项目文件（含 node_modules、模型权重、
+# 二进制资源、日志、构建产物等）一律纳入版本控制，不再排除。
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
-
-# ===== Electron builder artifacts =====
-*.blockmap
-*.exe
-*.dll
-*.pak
-*.bin

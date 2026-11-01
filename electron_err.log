@@ -1,0 +1,24 @@
+node:internal/modules/cjs/loader:1087
+  throw err;
+  ^
+
+Error: Cannot find module 'electron'
+Require stack:
+- C:\Users\华硕\AppData\Local\Temp\asar_extract\electron\main.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1084:15)
+    at Module._load (node:internal/modules/cjs/loader:929:27)
+    at c._load (node:electron/js2c/node_init:2:13672)
+    at Module.require (node:internal/modules/cjs/loader:1150:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (C:\Users\华硕\AppData\Local\Temp\asar_extract\electron\main.js:5:65)
+    at Module._compile (node:internal/modules/cjs/loader:1271:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1326:10)
+    at Module.load (node:internal/modules/cjs/loader:1126:32)
+    at Module._load (node:internal/modules/cjs/loader:967:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\华硕\\AppData\\Local\\Temp\\asar_extract\\electron\\main.js'
+  ]
+}
+
+Node.js v18.18.2
