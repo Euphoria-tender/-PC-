@@ -1,0 +1,67 @@
+/* 文化DNA —— 全局样式（国风主题） */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', -apple-system,
+    BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #2c251e;
+  background: #f3eee3;
+}
+
+/* 宣纸背景：极轻纸纹（纯 CSS，不依赖图片） */
+.paper-bg {
+  background-color: #f3eee3;
+  background-image: radial-gradient(rgba(120, 95, 60, 0.02) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* 展示字体（标题 / 品牌） */
+.font-serif {
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
+}
+
+/* 统一柔和卡片投影 */
+.soft-card {
+  box-shadow: 0 1px 2px rgba(80, 60, 35, 0.04), 0 4px 16px rgba(80, 60, 35, 0.05);
+}
+
+/* 登录页（国风 · 宣纸渐变） */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 24px;
+  background: radial-gradient(1200px 600px at 15% 10%, rgba(168, 67, 47, 0.08), transparent 60%),
+    radial-gradient(1000px 700px at 85% 90%, rgba(94, 139, 131, 0.1), transparent 60%),
+    linear-gradient(160deg, #f7f3ea 0%, #efe7d8 100%);
+}
+
+.login-card {
+  width: 432px;
+  max-width: calc(100vw - 48px);
+  padding: 40px 40px 28px;
+  background: #fffefb;
+  border: 1px solid #e6dcc9;
+  border-radius: 14px;
+  box-shadow: 0 12px 40px rgba(80, 60, 35, 0.14);
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 6px !important;
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
+  letter-spacing: 2px;
+}

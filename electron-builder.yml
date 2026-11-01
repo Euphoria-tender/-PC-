@@ -1,0 +1,37 @@
+appId: com.culturaldna.desktop
+productName: 文化DNA
+copyright: Copyright © 2026 文化DNA
+
+directories:
+  output: release
+  buildResources: public
+
+files:
+  - dist/**/*
+  - electron/**/*
+  - package.json
+
+extraResources:
+  - from: backend_dist/
+    to: backend/
+
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  icon: public/icon.ico
+  artifactName: ${productName}-Setup-${version}.${ext}
+
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  language: 2052
+  unicode: true
+  installerIcon: public/icon.ico
+  shortcutName: 文化DNA
+
+publish: null

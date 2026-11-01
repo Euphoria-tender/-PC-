@@ -1,0 +1,42 @@
+# ===== Dependencies =====
+node_modules/
+
+# ===== Build / dist output =====
+dist/
+release/
+backend_dist/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# ===== Model checkpoints (large binaries, do NOT commit) =====
+backend/ai_model/checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# ===== Logs =====
+*.log
+
+# ===== Runtime data =====
+backend/logs/
+backend/uploads/
+backend/seed_images/
+
+# ===== OS / Editor =====
+.env
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== Electron builder artifacts =====
+*.blockmap
+*.exe
+*.dll
+*.pak
+*.bin

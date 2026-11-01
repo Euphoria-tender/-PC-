@@ -1,0 +1,19 @@
+{
+  "name": "cultural-dna-desktop",
+  "version": "1.0.0",
+  "description": "文化DNA —— 非遗作品确权溯源系统（桌面版）",
+  "main": "electron/main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
+    "antd": "^5.17.0",
+    "@ant-design/icons": "^5.3.7",
+    "axios": "^1.7.2",
+    "echarts": "^5.5.0",
+    "echarts-for-react": "^3.0.2",
+    "dayjs": "^1.11.11"
+  },
+  "allowScripts": {}
+}
